@@ -8,7 +8,7 @@ Las llamadas HTTP y las respuestas del modelo son simuladas. Las pruebas no prue
 
 ## Aceptación manual con IA real
 
-Todos los siguientes casos están **pendientes** hasta configurar una clave válida y publicar la app.
+El 25/09/2026 se comprobó una generación real de peluquería en la URL pública. Los demás casos se conservan como plan ampliado y no se declaran ejecutados.
 
 | ID | Entrada o acción | Resultado esperado |
 | --- | --- | --- |
@@ -35,7 +35,8 @@ La app valida el formato automáticamente. La calidad semántica se revisa manua
 
 | Fecha | Modelo | Caso | Resultado | Observación |
 | --- | --- | --- | --- | --- |
-| Pendiente | Pendiente | A01 a A10 | Sin ejecutar con IA real | Falta configurar cuenta y API key. |
+| 25/09/2026 22:16 UTC | gemini-3.5-flash-lite, prompt v1.0 | A01, variante de peluquería | Aprobado | 2 historias, 4 pruebas (positivas, negativa y borde), 2 preguntas. Generación desde la URL pública sin aportar credenciales. |
+| Pendiente | mismo modelo | A02 a A10 completos | Plan ampliado | No se declara ejecución de estos ensayos. |
 
 ## Condición de entrega
 
