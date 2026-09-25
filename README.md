@@ -6,7 +6,9 @@ Proyecto final de **Inteligencia Artificial: Prompt Engineering para programador
 
 **Repositorio público:** https://github.com/LuccaVilas/Proyecto-final-de-Inteligencia-Artificial-3.0
 
-**App desplegada:** pendiente de configurar Streamlit y la API key. Reemplazar esta línea por el enlace real después de publicar y probar la app. El proyecto todavía no está listo para la entrega definitiva.
+**App desplegada:** https://8ytoeqtqo32egbsuyb5pac.streamlit.app/
+
+**Verificación real (25/09/2026):** generación correcta con Gemini: una idea de turnos de peluquería produjo 2 historias, 4 casos de prueba y 2 preguntas pendientes. La app utiliza su clave del servidor; el evaluador no necesita aportar una.
 
 ## Qué resuelve
 
@@ -96,7 +98,7 @@ python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-**Resultado local registrado:** 36 pruebas aprobadas en Python 3.12 sobre validaciones, cliente HTTP simulado y flujo de Streamlit. La integración con Gemini real y la app pública permanecen pendientes. No confundir pruebas simuladas con una verificación del proveedor.
+**Resultado local registrado:** 36 pruebas aprobadas en Python 3.12 sobre validaciones, cliente HTTP simulado y flujo de Streamlit. La integración real se comprobó en la app pública el 25/09/2026 con gemini-3.5-flash-lite. No confundir pruebas simuladas con una verificación del proveedor.
 
 El workflow de GitHub Actions ejecuta la suite sin secretos. Casos manuales, criterios de evaluación y resultados pendientes: [docs/PRUEBAS.md](docs/PRUEBAS.md).
 
@@ -131,4 +133,4 @@ docs/PRUEBAS.md               Plan de aceptación y evaluación del modelo
 
 ## Datos para la entrega
 
-Nombre y apellido: **Lucca Vilas**. El correo registrado en Coderhouse se incluye en el documento de entrega, no es necesario publicarlo en este repositorio. Antes de enviar, completar la URL de la app y verificar los casos reales pendientes.
+Nombre y apellido: **Lucca Vilas**. El correo registrado en Coderhouse se incluye en el documento de entrega, no es necesario publicarlo en este repositorio. El enlace público figura al inicio. Consultar el registro de pruebas para distinguir los casos ejecutados de los ensayos adicionales propuestos.
